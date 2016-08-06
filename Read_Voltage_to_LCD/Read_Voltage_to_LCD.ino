@@ -1,14 +1,33 @@
+/*
+here is how to connect, it is so simple:
+This is the white stuff
+VSS --- GND
+VDD --- 5V
+GND --- Pot --- 5V
+            |
+            V0
+
+This is read and write
+RS --- pin 47
+RW --- GND
+EN --- pin 48
+D4 --- pin 59
+D5 --- pin 50
+D6 --- pin 51
+D7 --- pin 52
+
+Back lighting
+A - 5V
+K - GND
+*/
+
 // Read and Print Out Voltage to the LCD
 
 // Library
 #include <LiquidCrystal.h>
-#include <Stepper.h>
-
-// change this to the number of steps on your motor
-#define STEPS 100
 
 // LCD pins
-LiquidCrystal lcd(47, 48, 49, 50, 51, 52);
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12);
 
 // Previous time
 unsigned long prev_ts = 0;

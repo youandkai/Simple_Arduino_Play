@@ -29,7 +29,8 @@ K - GND
 #include <LiquidCrystal.h>
 
 // LCD pins
-LiquidCrystal lcd(47, 48, 49, 50, 51, 52);
+// LiquidCrystal lcd(47, 48, 49, 50, 51, 52);
+LiquidCrystal lcd(7, 9, 10, 11, 12, 13);
 
 // Initiate the sensor pin
 int sensor = 0;

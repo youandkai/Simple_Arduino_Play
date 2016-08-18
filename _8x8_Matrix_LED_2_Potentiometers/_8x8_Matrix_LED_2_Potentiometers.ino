@@ -61,6 +61,27 @@ void setup() {
   }
 }
 
+void loop() {
+  digitalWrite(2, HIGH); // line 6
+  digitalWrite(3, HIGH); // line 3
+  // digitalWrite(4, HIGH); // column 4
+  digitalWrite(5, HIGH); // line 1
+  // digitalWrite(6, HIGH); // column 6
+  // digitalWrite(7, HIGH); // column 7
+  // digitalWrite(8, HIGH); // column 3
+  digitalWrite(9, HIGH); // line 2
+  // digitalWrite(10, HIGH); // column 1
+  // digitalWrite(11, HIGH); // column 2
+  digitalWrite(12, HIGH); // line 4
+  // digitalWrite(13, HIGH); // column 8
+  digitalWrite(16, HIGH); // line 7
+  digitalWrite(17, HIGH); // line 5
+  // digitalWrite(18, HIGH); // column 5
+  digitalWrite(19, HIGH); // line 8
+}
+
+/*
+
 // Ok, so I first need to star out stuff so I know how the hell I can get LED 1-1 to light up
 // Don't forget to select COM4 --- Arduino Uno, swtiching boards here.
 void loop() {
@@ -107,5 +128,4 @@ void loop() {
   }
 }
 */
-
 
